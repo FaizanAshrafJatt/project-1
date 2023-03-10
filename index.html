@@ -19,7 +19,7 @@
   <header>
 
     <div class="container-main ">
-     <img src="assets/images/lady-image.png" alt="" id="image">
+      <img src="assets/images/lady-image.png" alt="" id="image">
 
       <div class="container-content">
         <!-- <nav>
@@ -92,22 +92,22 @@
             </div>
             </a>
 
-           <div class="d-flex">
-             <!--Second Box -->
-             <div class="nav-bar-icons d-lg-none">
+            <div class="d-flex">
+              <!--Second Box -->
+              <div class="nav-bar-icons d-lg-none">
 
-              <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
 
-              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
 
-              <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-           </div>
             <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
               <ul class="navbar-nav ">
                 <li class="nav-item active ">Home<div class="hover">
@@ -134,7 +134,7 @@
                   <a class="nav-link ">Contact</a>
                 </li>
               </ul>
-              <div class="d-none d-lg-block">
+              <div class=" d-none d-lg-block nav-bar-icons">
 
                 <i class="fa-solid fa-magnifying-glass"></i>
 
@@ -170,45 +170,71 @@
   <main>
     <!-- Cards -->
 
-    <div class="cards   .fontfamily-4 row d-flex column-gap-4   row-gap-2">
+    <!-- <div class="cards row g-3">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 px-3">
+        <div class="bg-danger">Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 px-3">
+        <div class="bg-danger">Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 px-3">
+        <div class="bg-danger">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div> -->
+
+
+
+    <div class="cards fontfamily-4 row g-3  ">
       <!-- <div class="bg-danger col-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni facere quam dolores magnam incidunt est, consectetur, atque molestiae tempore quae animi quibusdam ea fugit labore in. Culpa, quo. Est, impedit!</div> -->
-      <div class="card  col-sm-12 col-md-6 col-lg-4">
-        <div class="card-content">
-          <h1>Men</h1>
-          <h3>
-            Spring 2018
-          </h3>
-          <div class="shop">
-            Shop now..
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 px-2">
+        <div class="card">
+      
+            <div class="card-content">
+              <h1>Men</h1>
+              <h3>
+                Spring 2018
+              </h3>
+              <div class="shop">
+                Shop now..
+              </div>
+            </div>
+            <div class="card-image">
+              <img src="assets/images/Boy.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="card-image">
-          <img src="assets/images/Boy.png" alt="" />
-        </div>
-      </div>
-      <div class="card card col-sm-12 col-md-6 col-lg-4 ">
-        <div class="card-content">
-          <h1>Women</h1>
-          <h3>
-            Spring 2018
-          </h3>
-          <div class="shop">
-            Shop now
+    
+      <div class=" col-12 col-sm-8 col-md-6 col-lg-4  px-2">
+        <div class="card">
+         
+            <div class="card-content">
+              <h1>Women</h1>
+              <h3>
+                Spring 2018
+              </h3>
+              <div class="shop">
+                Shop now
+              </div>
+            </div>
+            <div class="card-image">
+              <img src="assets/Black-lady.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="card-image">
-          <img src="assets/Black-lady.png" alt="" />
-        </div>
-      </div>
-      <div class="card  col-sm-12 col-md-6 col-lg-4 ">
-        <div class="card-content">
-          <h1>Accessories</h1>
-          <div class="shop">
-            Shop now
-          </div>
-        </div>
-        <div class="card-image">
-          <img src="assets/images/cap.png" alt="" />
+     
+      <div class=" col-12 col-sm-8 col-md-6 col-lg-4  px-2">
+        <div class="card">
+          
+            <div class="card-content">
+              <h1>Accessories</h1>
+              <div class="shop">
+                Shop now
+              </div>
+            </div>
+            <div class="card-image">
+              <img src="assets/images/cap.png" alt="" />
+            </div>
+        
         </div>
       </div>
     </div>
@@ -316,7 +342,7 @@
     <div class="products d-flex justify-content-between  row ">
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3 ">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-11.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-11.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -326,7 +352,7 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100"src="assets/images/product-12.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-12.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -338,7 +364,7 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-13.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-13.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -363,7 +389,7 @@
     <div class="products d-flex justify-content-between row ">
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-21.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-21.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -373,7 +399,7 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-22.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-22.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -385,7 +411,7 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-23.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-23.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -397,7 +423,7 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img class="img-fluid w-100"  src="assets/images/product-24.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-24.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -410,7 +436,7 @@
     <div class="products d-flex justify-content-between row">
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-          <img  class="img-fluid w-100" src="assets/images/product-31.jpg" alt="" />
+          <img class="img-fluid w-100" src="assets/images/product-31.jpg" alt="" />
           <div class="button-product"><button>Quick Veiw</button></div>
         </div>
         <div class="text-product">
@@ -432,10 +458,10 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-        <div   >
-          <img class="img-fluid w-100" src="assets/images/product-33.jpg" alt="" />
-          <div class="button-product"><button>Quick Veiw</button></div>
-        </div>
+          <div>
+            <img class="img-fluid w-100" src="assets/images/product-33.jpg" alt="" />
+            <div class="button-product"><button>Quick Veiw</button></div>
+          </div>
         </div>
         <div class="text-product">
           <a href="#">
@@ -446,10 +472,10 @@
       </div>
       <div class="item col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="image-product">
-        <div  >
-          <img  class="img-fluid w-100" src="assets/images/product-34.jpg" alt="" />
-          <div class="button-product"><button>Quick Veiw</button></div>
-        </div>
+          <div>
+            <img class="img-fluid w-100" src="assets/images/product-34.jpg" alt="" />
+            <div class="button-product"><button>Quick Veiw</button></div>
+          </div>
         </div>
         <div class="text-product">
           <c href="#">Classic Trench Coat</c>
@@ -480,7 +506,7 @@
                 Women
               </a>
             </li>
-          
+
             <li>
               <a href="#">
                 Shoes

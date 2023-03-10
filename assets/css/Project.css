@@ -213,11 +213,11 @@ margin-bottom: 100px;
   flex-direction: row;
   justify-content: space-between;
 width: 100%;  
-    padding: 7rem  0px  ;
+    padding: 7rem  0px  ;mai
 } */
 .card{
 position: relative;
-width: 403px;
+
 
  font-family: 'Bitter', serif;
 
@@ -288,9 +288,16 @@ main{
   width: 80%;
   flex-direction: column;
   align-content: center;
+  background-color: pink;
 
 }
 
+@media screen and (max-width: 810px)  {
+  main{
+    width: 100%;
+    justify-content: center;
+  }
+}
 .list{
   display: flex;
   justify-content: space-between;
