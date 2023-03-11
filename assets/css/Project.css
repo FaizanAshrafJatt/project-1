@@ -257,15 +257,18 @@ top: -52%;
   
 }
 @media screen and (max-width:991px){
-
+  
   .content button{
-    margin-bottom: 25px;
+    
   margin-left: 20px;
   }
+  .hover{
+  opacity: 1 !important;
+}
 }
 .content h3{
+  
   font-size: 40px;
-  margin-top: -159px;
 }
 
 .content h1{
