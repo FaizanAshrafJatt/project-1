@@ -41,9 +41,29 @@ header{
 @media screen and (max-width:991px){
  .container-content{
     width: 100%;
+    
   }
+  .content{
+    margin-top: 250px !important;
+  }
+  .content h3{
+    font-size: 20px !important;
+  }
+  .content h1{
+    font-size: 50px !important;
+  }
+  .footer-content{
+    padding-top: 42px;
+  }
+  .content-1{
+    padding: 0px;
+  }
+  .content-1 h1{
+    font-size: 15px;
+  }
+
  .container-main{
-  height: 700px;
+  height: 751px;
 
  }
 }
@@ -63,12 +83,36 @@ border-radius: 7px;
 }
 #navbarNav{
   font-family: 'Bitter', serif;
-  margin-left: 165px;
+  transition: 700ms;
   padding: 0px 20px;
 }
 .nav-item{
   padding: 0px 15px;
 }
+@media screen and (max-width: 991px) {
+  .navbar-collapse{
+  background-color: blue;
+width: 500px !important;
+
+margin: 0;
+width: 100%;
+
+  height: 200px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  }
+  .navbar-collapse ul li a{
+    color: white;
+  }
+  #navbarNav{
+padding: 20px 20px;
+
+  }
+  .nav-item  {
+padding-top:7px;
+  }
+}
+
  .navbar-nav .active{
   margin-top: 7px;
   cursor: pointer;
@@ -151,7 +195,7 @@ top: -52%;
 .nav-bar-icons i{
   font-size: 20px;
 
-  padding: 23px 15px;
+  padding: 23px 9px;
   cursor: pointer;
   position: relative;
 }
@@ -205,7 +249,7 @@ font-size: 20px;
   
 }
 .cards{
-  margin-top:100px;
+  margin-top: 44px;
 margin-bottom: 100px;
 }
 /* .cards{
@@ -298,17 +342,21 @@ main{
     justify-content: center;
   }
 }
+.product-overview{
+ text-align: start;
+ margin-left: 17px;
+}
 .list{
   display: flex;
   justify-content: space-between;
 
 
+}.li-items{
+  text-align: start;
 }
 
-.li-items{
-  width: 70%;
-}
 .li-items ul {
+
   display: flex;
   flex-wrap: wrap;
 /* flex-direction: row; */
@@ -360,6 +408,10 @@ cursor: pointer;
   justify-content: space-between;
   flex-wrap: wrap;
 } */
+.item{
+  transition: 700ms;
+ 
+}
 .image-product{
   overflow: hidden;
   position: relative;
@@ -516,7 +568,11 @@ color: rgb(253, 240, 240);
   .last-line{
     display: flex ;
   justify-content: center;
-    color: white;
-
+    color: rgba(255, 255, 255, 0.486);
+font-size: smaller;
+font-weight: 100;
 
   }
+  .last{
+    width: 286px;
+  text-align: center;  }
